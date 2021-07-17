@@ -9,4 +9,7 @@ RUN npm ci
 
 COPY . .
 
+RUN npm i -g typescript
+RUN tsc --build tsconfig.json
+
 CMD [ "node", "dist/index.js" ]
