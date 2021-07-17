@@ -10,5 +10,8 @@
     "discord.js": "^12.5.3",
     "firebase-admin": "^9.11.0",
     "quick.db": "^7.1.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.4.6"
   }
 }
