@@ -1,0 +1,13 @@
+{
+  "name": "image-upscaler-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/zal1000/image-upscaler-bot.git",
+  "author": "Zalán Horváth <horvathzalan@zal1000.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "firebase-admin": "^9.11.0",
+    "quick.db": "^7.1.3"
+  }
+}
